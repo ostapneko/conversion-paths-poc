@@ -1,0 +1,6 @@
+[package]
+name = "conversion-paths-rust"
+version = "0.1.0"
+authors = ["Thomas Franquelin <thomas.franquelin@contentsquare.com>"]
+
+[dependencies]
