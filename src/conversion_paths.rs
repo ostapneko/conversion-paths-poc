@@ -11,7 +11,7 @@ pub struct ConversionPaths {
 }
 
 impl ConversionPaths {
-    fn build<T>(target: GoalId, sessions: T) -> ConversionPaths
+    pub fn build<T>(target: GoalId, sessions: T) -> ConversionPaths
     where
         T: Iterator<Item = BTreeSet<GoalId>>
     {
